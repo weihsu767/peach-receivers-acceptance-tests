@@ -1,13 +1,12 @@
 {
-  "name": "cypress-cucumber-webpack-example",
+  "name": "peach-receivers-acceptance-tests",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@types/node": "^10.12.11"
   },
   "scripts": {
-    "test": "cypress run --spec \"**/*.feature\"",
-    "test:all": "cypress run --spec \"**/*.features\""
+    "test": "cypress run --spec \"**/*.feature\""
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^4.0.2",
@@ -16,5 +15,8 @@
     "ts-loader": "^5.3.1",
     "typescript": "^3.2.1",
     "webpack": "^4.28.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

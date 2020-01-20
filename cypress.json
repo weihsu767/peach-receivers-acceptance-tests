@@ -1,3 +1,5 @@
 {
-  "testFiles": "**/*.{feature,features}"
+  "baseUrl": "http://localhost:3000",
+  "testFiles": "**/*.feature",
+  "projectId": "wyzbqc"
 }
