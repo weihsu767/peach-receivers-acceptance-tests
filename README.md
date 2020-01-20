@@ -1,10 +1,25 @@
-# cypress-cucumber-webpack-typescript-example
-cypress cucumber webpack typescript example
+# peach-receivers-acceptance-tests
 
-All the configuration is in [cypress/plugins/index.js](cypress/plugins/index.js)
 
-Typescript step definitions are in [cypress/support/step_definitions](cypress/support/step_definitions)
+## Available Scripts
 
-Thanks [@mkusher](https://github.com/mkusher) for the [work](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/pull/115) on making cypress-cucumber-preprocessor work with webpack!
+In the project directory, you can run:
 
-You can also use our Cucumber plugin with TypeScript without webpack [https://github.com/TheBrainFamily/cypress-cucumber-typescript-example/](https://github.com/TheBrainFamily/cypress-cucumber-typescript-example/).
+## Cypress Tests
+
+This project contains e2e Cypress tests for testing the UI via a browser.
+
+### First time setup
+
+From the command line, run the following commands.
+
+Install npm packages:
+`npm install`
+
+### Running Cypress
+
+After first time setup is completed, run specific feature in Cypress using
+`npx cypress open`
+
+After first time setup is completed, run all of features in Cypress using
+`npx cypress run`
